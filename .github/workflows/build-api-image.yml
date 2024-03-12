@@ -24,7 +24,7 @@ jobs:
         with:
           access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          region: me-central-1 # Replace with your AWS region, e.g., us-east-1
+          region: "me-central-1" # Replace with your AWS region, e.g., us-east-1
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
